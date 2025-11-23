@@ -1,0 +1,209 @@
+<!-- ==========================
+   GLOWRIDER AUTODETAILING WEBSITE
+   Multi‑Page Static Website (HTML/CSS)
+   You can copy each section into separate .html files on GitHub.
+   Pages included:
+   - index.html (Home)
+   - whyus.html (Why Us)
+   - about.html (About Us)
+   - services.html (Services Overview)
+   - service-glowdetail.html
+   - service-glowdeluxe.html
+   - service-interiorpro.html
+   - service-exteriorpro.html
+   - contact.html (Form page)
+   - social.html (Social Media)
+   - styles.css
+========================== -->
+
+<!-- ==========================
+        styles.css
+========================== -->
+<style>
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #0e0e0f;
+    color: #f2f2f2;
+  }
+
+  header {
+    background: #151517;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 15px;
+  }
+
+  .hero {
+    padding: 120px 40px;
+    text-align: center;
+    background: linear-gradient(to bottom, #151517, #0e0e0f);
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    background: #b3002d;
+    color: white;
+    padding: 14px 26px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+  }
+
+  .btn:hover {
+    background: #d40035;
+  }
+
+  .section {
+    padding: 80px 12%;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .card {
+    background: #151517;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #212123;
+  }
+
+  .card h3 { margin-top: 0; }
+
+  footer {
+    text-align: center;
+    padding: 30px;
+    background: #151517;
+    margin-top: 50px;
+  }
+</style>
+
+<!-- ==========================
+        index.html (HOME)
+========================== -->
+<div class="hero">
+  <h1>GlowRider Auto Detailing</h1>
+  <p>Joliet, IL & Surroundings</p>
+  <a href="services.html" class="btn">Book Now</a>
+</div>
+
+<div class="section">
+  <h2>Why Choose Us?</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Quality Over Everything</h3>
+      <p>We take the time to focus on details others miss, ensuring your car receives premium care every time.</p>
+    </div>
+    <div class="card">
+      <h3>Honest & Transparent</h3>
+      <p>No hidden fees, no shortcuts. You get exactly what you pay for with consistent results.</p>
+    </div>
+    <div class="card">
+      <h3>Tailored Experience</h3>
+      <p>Every vehicle is different. We adjust our process to match the specific needs of your car.</p>
+    </div>
+  </div>
+  <br>
+  <a href="contact.html" class="btn">Contact Me</a>
+</div>
+
+<!-- ==========================
+        whyus.html
+========================== -->
+<!-- Similar section as above but expanded -->
+
+<!-- ==========================
+        about.html
+========================== -->
+<!-- Add your personal story, why you started detailing, your standards, etc. -->
+
+<!-- ==========================
+        services.html
+========================== -->
+<div class="section">
+  <h2>Services</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Glow Detail</h3>
+      <p>A light but effective refresh for both interior and exterior.</p>
+      <a href="service-glowdetail.html" class="btn">View</a>
+    </div>
+    <div class="card">
+      <h3>Glow Deluxe</h3>
+      <p>Deeper cleaning and shine for a fuller transformation.</p>
+      <a href="service-glowdeluxe.html" class="btn">View</a>
+    </div>
+    <div class="card">
+      <h3>Interior Pro</h3>
+      <p>Full interior detail focusing on seats, carpets, plastics, and odor removal.</p>
+      <a href="service-interiorpro.html" class="btn">View</a>
+    </div>
+    <div class="card">
+      <h3>Exterior Pro</h3>
+      <p>Deep exterior cleaning, shine, wheels, tires, and protection.</p>
+      <a href="service-exteriorpro.html" class="btn">View</a>
+    </div>
+  </div>
+</div>
+
+<!-- ==========================
+   service pages template
+========================== -->
+<!-- Example for Glow Detail -->
+<div class="section">
+  <h2>Glow Detail</h2>
+  <p>Price: $XX</p>
+  <p>Description: A light + balanced interior/exterior refresh for cars that need a clean but not a deep restoration.</p>
+  <a href="contact.html" class="btn">Contact Us</a>
+</div>
+
+<!-- Duplicate the block above for each service page -->
+
+<!-- ==========================
+        contact.html
+========================== -->
+<div class="section">
+  <h2>Request a Quote</h2>
+  <p>Please fill out the form below. I usually respond within minutes to a few hours.</p>
+  <iframe src="YOUR_GOOGLE_FORM_EMBED_URL" width="100%" height="650" style="border:none;"></iframe>
+</div>
+
+<!-- ==========================
+       social.html
+========================== -->
+<div class="section">
+  <h2>Social Media</h2>
+  <p>Follow and support the brand:</p>
+  <ul>
+    <li><a href="YOUR_TIKTOK">TikTok</a></li>
+    <li><a href="YOUR_INSTAGRAM">Instagram</a></li>
+    <li><a href="YOUR_FACEBOOK">Facebook</a></li>
+    <li><a href="YOUR_YOUTUBE">YouTube</a></li>
+  </ul>
+</div>
+
+<footer>
+  GlowRider AutoDetailing © 2025 — Joliet, IL
+</footer>
